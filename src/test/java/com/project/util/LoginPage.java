@@ -32,6 +32,7 @@ public class LoginPage {
         loginField.sendKeys(email);
         passwordField.sendKeys(password);
     }
+
     public void clickLogin() {
         loginButton.click();
     }
